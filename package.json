@@ -1,0 +1,29 @@
+{
+  "name": "redlock-cron",
+  "version": "1.0.0",
+  "description": "A cluster version of node-cron using redlock-leader.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torghul/redlock-cron.git"
+  },
+  "keywords": [
+    "cron",
+    "cluster",
+    "redlock",
+    "redis",
+    "leader"
+  ],
+  "author": "Zafer Yaman",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "redlock-leader": "git+https://github.com/torghul/redlock-leader.git"
+  },
+  "devDependencies": {
+    "redis": "^3.0.2"
+  }
+}
