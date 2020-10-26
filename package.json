@@ -21,7 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "cron": "^1.8.2",
-    "redlock-leader": "git+https://github.com/torghul/redlock-leader.git"
+    "redlock-leader": "1.0.2"
   },
   "devDependencies": {
     "redis": "^3.0.2"
